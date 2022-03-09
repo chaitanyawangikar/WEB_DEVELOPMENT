@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex4 assignment</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        header {
+            height: 100px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 30px;
+
+        }
+
+        #sidebar {
+            background-color: darkgray;
+            display: flex;
+
+
+        }
+
+        .box {
+            border: 1px solid;
+            height: 500px;
+            margin: 10px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .box1 {
+
+            flex-grow: 2;
+        }
+
+        .box1>a {
+            text-decoration: none;
+
+        }
+
+        .box2 {
+
+            flex-grow: 8;
+        }
+
+        .boxx {
+            width: 100%;
+            margin: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .boxx>div {
+            border: 1px solid;
+            height: 100px;
+            width: 100px;
+            display: flex;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header Start-->
+    <header>Minecraft</header>
+    <!--Header end-->
+
+    <!--nav starts-->
+    <div id="sidebar">
+        <div class="box box1">
+            <a href="#">Copper</a>
+            <a href="#">Iron</a>
+            <a href="#">Gold</a>
+            <a href="#">Diamond</a>
+        </div>
+        <div class="box box2">
+            <div class="boxx">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="boxx">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!--nav end-->
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        header {
+            width: 100%;
+            height: 100px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        header>p {
+            color: white;
+            font-size: 25px;
+            text-transform: uppercase;
+            font-family: 'Supermercado One', cursive;
+        }
+
+        section {
+            width: 100%;
+            height: 600px;
+            display: flex;
+        }
+
+        section>div {
+            height: 600px;
+        }
+
+        #sidebar {
+            flex-grow: 1;
+        }
+
+        #items {
+            flex-grow: 3;
+        }
+
+        #sidebar>a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: black;
+            padding-bottom: 100px;
+            padding-top: 100px;
+            border-bottom: 1px solid green;
+            font-family: 'Supermercado One', cursive;
+        }
+
+        .product>div {
+            border: 1px solid;
+            height: 200px;
+            width: 200px;
+        }
+
+        .product {
+            display: flex;
+            height: 300px;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            min-width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>Minecraft</p>
+    </header>
+    <section>
+
+        <div id="items">
+            <div class="product">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="product">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="product">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <div id="sidebar">
+            <a href="#">TV</a>
+            <a href="#">Laptop</a>
+            <a href="#">Mobile</a>
+            <a href="#">Remote</a>
+        </div>
+    </section>
+</body>
+
+</html>

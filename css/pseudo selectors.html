@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selector</title>
+    <style>
+        span{
+            font-size: 50px;
+            
+        }
+        body {
+            margin: 60px;
+            text-align: center;
+            background-color: lightgray;
+        }
+
+        a {
+            border: 2px solid black;
+            padding:15px;
+            background-color: lightcyan;
+            color: purple;
+        }
+
+        a:link {
+            text-decoration: none;
+            
+            color: yellow
+        }
+
+        a:visited {
+            color: green;
+        }
+
+        a:hover {
+            font-size: 100px;
+            color: red;
+            background-color: lightgoldenrodyellow;
+        }
+
+        a:active {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <span>
+        <a href="https://policies.google.com/technologies/partner-sites?hl=en-US" target="_blank" title="Ham">Ham</a>
+    </span>
+</body>
+
+</html>

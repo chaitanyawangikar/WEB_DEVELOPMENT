@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line {
+            color: red;
+            font-size: 20px;
+            background-color: aqua;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-image: url(../abc.jpg);
+            background-repeat: no-repeat;
+            flex-wrap: wrap;
+        }
+
+        p::first-letter {
+            font-size: 30px;
+            color: blue;
+            background-color: aqua;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-repeat: no-repeat;
+            flex-wrap: wrap;
+        }
+
+        /*p::after {
+            content: url(../../images/flute.jpg);
+        }
+
+        p::before {
+            content: url(../abc.jpg);
+        }*/
+        ul>li::marker {
+            color: red;
+        }
+
+        ol>li::marker {
+            color: blue;
+        }
+
+        p::selection {
+            background-color: black;
+            color: white;
+            font-size: 50px;
+        }
+
+        img {
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Hi you are Welcome Hi you are now Hi you are now Hi you are now Hi you are now Hi you are now Hi you are now Hi
+        you are now Hi you are now Hi you are now vv Hi you are now Hi you are now v v vvv Hi you are now Hi you are now
+    </p>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ol>
+    <img src="https://www.mediafire.com/view/c6q9bv2wfc27q3f/flute.jpg/file" alt="No image found">
+</body>
+
+</html>

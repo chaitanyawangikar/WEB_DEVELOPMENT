@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        header {
+            height: 100px;
+            width: 100%;
+            background-color: black;
+            text-align: center;
+            padding-top: 20px;
+            position: fixed;
+        }
+
+        #span1 {
+            font-family: 'Supermercado One', cursive;
+            font-size: 40px;
+            color: white;
+
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row-reverse;
+            height: auto;
+            width: 100%;
+            background-color: navy;
+            color: white;
+            position: sticky;
+            top: 118px;
+        }
+
+        .nav1 {
+            display: inline-block;
+
+        }
+
+        #a1 {
+            text-decoration: none;
+            color: white;
+            display: flex;
+
+        }
+
+        #a1:hover {
+            color: red;
+
+        }
+
+        .inp1:hover {
+            background-color: pink;
+            font-size: 20px;
+        }
+
+        #div1 {
+            position: fixed;
+            float: right;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+
+        ul li {
+            margin: 0px 10px;
+            float: right;
+            color: white;
+            text-decoration: none;
+        }
+
+        ul li:hover {
+            color: violet;
+            font-size: 20px;
+        }
+
+        #sec1 {
+            height: 300px;
+            width: 100%;
+            background-color: grey;
+            text-align: center;
+            padding-top: 150px;
+        }
+
+        #sec2 {
+            height: 250px;
+            width: 100%;
+            background-color: cyan;
+        }
+
+        img:hover {
+            border-radius: 50%;
+        }
+
+        img {
+            height: 150px;
+            width: 200px;
+            margin-top: 50px;
+            margin-right: 200px;
+            margin-left: 80px;
+
+        }
+
+        hr {
+            border: 2px solid black;
+            margin: 0%;
+        }
+
+        footer {
+            font-family: 'Supermercado One', cursive;
+            text-align: center;
+            height: 100px;
+            padding-top: 50px;
+            background-color: coral;
+        }
+
+        h1 {
+            margin-bottom: 0px;
+            font-size: 40px;
+        }
+
+        p {
+            margin: 0px;
+            font-size: 22px;
+
+        }
+
+        #sec4 {
+            height: 100px;
+            width: 100%;
+            border: 1px soloid;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Page Header -->
+    <header>
+        <span id="span1">Personal Portfolio</span><br>
+        <a id="a1" href="#" target="_blank">Champ.com</a>
+        <div id="container">
+            <div id="div1">
+                <input class="inp1" type="button" value="View in editor">
+                <input class="inp1" type="button" value="Sign Up">
+                <input class="inp1" type="button" value="Log In">
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header End -->
+
+    <!--Nav bar Start-->
+    <nav>
+
+        <ul>
+            <a href="#sec3">
+                <li class="nav1">Contact</li>
+            </a>
+
+            <a href="#sec2">
+                <li class="nav1">Work</li>
+            </a>
+            <a href="#sec1">
+                <li class="nav1">About</li>
+            </a>
+        </ul>
+
+    </nav>
+    <!--Nav bar End-->
+
+    <!--Section Start-->
+    <section id="sec1">
+        <h1>Hey, I am Chaitanya</h1>
+        <p> a web devloper</p>
+    </section>
+    <!--Section end-->
+
+    <!--Section Start-->
+
+    <section id="sec2">
+        <img src="../abc.jpg" alt="Minecraft" title="Minecraft">
+
+        <img src="../../images/flute.jpg" alt="Flute" title="Flute">
+        <img src="../../images/watermelon.jpg" alt="watermelon" title="Watermelon">
+    </section>
+
+    <section id="sec2">
+        <img src="../abc.jpg" alt="Minecraft" title="Minecraft">
+        <img src="../../images/flute.jpg" alt="Flute" title="Flute">
+        <img src="../../images/watermelon.jpg" alt="watermelon" title="Watermelon">
+    </section>
+    <hr>
+
+    <footer id="sec3">
+        All Rights Reserved &copy; 2022 <br>MOb.No. 1234567890
+
+    </footer>
+</body>
+
+</html>

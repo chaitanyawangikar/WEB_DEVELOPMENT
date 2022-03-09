@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation3</title>
+    <style>
+        .container {
+            border: 1px solid red;
+            height: 600px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .container>div {
+            border: 1px solid;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            border-radius: 50%;
+            background-color: aquamarine;
+        }
+
+        .box1 {
+            animation-name: abc;
+            animation-duration: 3s;
+            top: 0%;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: relative;
+        }
+
+        @keyframes abc {
+            50% {
+                top: 60%;
+                background-color: blue;
+            }
+        }
+
+        .box2 {
+            animation-name: pqr;
+            animation-duration: 6s;
+            top: 0%;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: relative;
+        }
+
+        @keyframes pqr {
+            50% {
+                top: 70%;
+                background-color: blueviolet;
+            }
+        }
+
+        .box3 {
+            animation-name: xyz;
+            animation-duration: 5s;
+            top: 0%;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: relative;
+        }
+
+        @keyframes xyz {
+            50% {
+                top: 80%;
+                background-color: crimson;
+            }
+        }
+
+        .box4 {
+            animation-name: asd;
+            animation-duration: 4s;
+            top: 0%;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: relative;
+        }
+
+        @keyframes asd {
+            50% {
+                top: 70%;
+                background-color: mediumvioletred;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="div1 box1"></div>
+        <div class="div1 box2"></div>
+        <div class="div1 box3"></div>
+        <div class="div1 box4"></div>
+    </div>
+</body>
+
+</html>

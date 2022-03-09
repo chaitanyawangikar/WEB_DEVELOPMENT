@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-image: url(../../images/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.div1 {
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.div1>a {
+    margin: 1%;
+    border: 1px solid;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+}
+
+
+.sec {
+    height: 500px;
+    width: 100%;
+    display: flex;
+
+}
+
+.div2 {
+
+    flex-grow: 5;
+    margin: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.div3 {
+    flex-grow: 4;
+    margin: 15px;
+}
+
+.div2>img {
+    height: 100%;
+    width: 100%;
+}
+
+.div3>div {
+    border: 1px solid white;
+    height: 224px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div3>div>p {
+    color: white;
+    margin-bottom: 0px;
+}
+
+.container {
+    margin: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container>div {
+
+    height: 200px;
+    width: 200px;
+}
+
+.container>div>img {
+    height: 100%;
+    width: 100%;
+}
+
+.sec2 {
+    margin: 30px;
+
+    display: flex;
+    padding: 10px;
+}
+
+.sec2>div {
+
+    height: 368px;
+    color: white;
+}
+
+.sec2>div>a {
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.gradient {
+    display: flex;
+}
+
+.gradient>div {
+    width: 100%;
+}
+
+/*  .grad2 {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-grow: 5;
+}*/
+
+.grad2 {
+    margin: 0px;
+    width: 100px;
+    color: white;
+
+}
+
+.grad1 {
+    background-image: linear-gradient(to left, rgba(255, 0, 0, 1.0), rgba(255, 0, 0, 0.0));
+
+}
+
+.grad3 {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 1.0), rgba(255, 0, 0, 0.0));
+
+}
+
+.igi {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.igi>img {
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (max-width:600px) {
+    * {
+        flex-wrap: wrap;
+        margin: 10px;
+    }
+}

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>periodic-table</title>
+    <style>
+        section {
+            display: grid;
+        }
+
+        section>div {
+            border: 1px solid;
+        }
+
+        .A1 {
+            grid-area: 1/1/1/1;
+        }
+
+        .A2 {
+            grid-area: 1/18/1/19;
+        }
+
+        .A3 {
+            grid-area: 2/1/2/1;
+        }
+
+        .A4 {
+            grid-area: 2/2/2/2;
+        }
+
+        .A5 {
+            grid-area: 2/13/2/13;
+        }
+
+        .A6 {
+            grid-area: 2/14/2/14;
+        }
+
+        .A7 {
+            grid-area: 2/15/2/15;
+        }
+
+        .A8 {
+            grid-area: 2/16/2/16;
+        }
+
+        .A9 {
+            grid-area: 2/17/2/17;
+        }
+
+        .A10 {
+            grid-area: 2/18/2/18;
+        }
+
+        .A11 {
+            grid-area: 3/1/3/1;
+        }
+
+        .A12 {
+            grid-area: 3/2/3/2;
+        }
+
+        .A13 {
+            grid-area: 3/13/3/13;
+        }
+
+        .A14 {
+            grid-area: 3/14/3/14;
+        }
+
+        .A15 {
+            grid-area: 3/15/3/15;
+        }
+
+        .A16 {
+            grid-area: 3/16/3/16;
+        }
+
+        .A17 {
+            grid-area: 3/17/3/17;
+        }
+
+        .A18 {
+            grid-area: 3/18/3/18;
+        }
+
+        .A19 {
+            grid-area: 4/1/4/1;
+        }
+
+        .A20 {
+            grid-area: 4/2/4/2;
+        }
+
+        .A21 {
+            grid-area: 4/3/4/3;
+        }
+
+        .A22 {
+            grid-area: 4/4/4/4;
+        }
+
+        .A23 {
+            grid-area: 4/5/4/5;
+        }
+
+        .A24 {
+            grid-area: 4/6/4/6;
+        }
+
+        .A25 {
+            grid-area: 4/7/4/7;
+        }
+
+        .A26 {
+            grid-area: 4/8/4/8;
+        }
+
+        .A27 {
+            grid-area: 4/9/4/9;
+        }
+
+        .A28 {
+            grid-area: 4/10/4/10;
+        }
+
+        .A29 {
+            grid-area: 4/11/4/11;
+        }
+
+        .A30 {
+            grid-area: 4/12/4/12;
+        }
+
+        .A31 {
+            grid-area: 4/13/4/13;
+        }
+
+        .A32 {
+            grid-area: 4/14/4/14;
+        }
+
+        .A33 {
+            grid-area: 4/15/4/15;
+        }
+
+        .A34 {
+            grid-area: 4/16/4/16;
+        }
+
+        .A35 {
+            grid-area: 4/17/4/17;
+        }
+
+        .A36 {
+            grid-area: 4/18/4/18;
+        }
+
+
+        .A37 {
+            grid-area: 5/1/5/1;
+        }
+
+        .A38 {
+            grid-area: 5/2/5/2;
+        }
+
+        .A39 {
+            grid-area: 5/3/5/3;
+        }
+
+        .A40 {
+            grid-area: 5/4/5/4;
+        }
+
+        .A41 {
+            grid-area: 5/5/5/5;
+        }
+
+        .A42 {
+            grid-area: 5/6/5/6;
+        }
+
+        .A43 {
+            grid-area: 5/7/5/7;
+        }
+
+        .A44 {
+            grid-area: 5/8/5/8;
+        }
+
+        .A45 {
+            grid-area: 5/9/5/9;
+        }
+
+        .A46 {
+            grid-area: 5/10/5/10;
+        }
+
+        .A47 {
+            grid-area: 5/11/5/11;
+        }
+
+        .A48 {
+            grid-area: 5/12/5/12;
+        }
+
+        .A49 {
+            grid-area: 5/13/5/13;
+        }
+
+        .A50 {
+            grid-area: 5/14/5/14;
+        }
+
+        .A51 {
+            grid-area: 5/15/5/15;
+        }
+
+        .A52 {
+            grid-area: 5/16/5/16;
+        }
+
+        .A53 {
+            grid-area: 5/17/5/17;
+        }
+
+        .A54 {
+            grid-area: 5/18/5/18;
+        }
+
+        .A55 {
+            grid-area: 6/1/6/1;
+        }
+
+        .A56 {
+            grid-area: 6/2/6/2;
+        }
+
+        .A57 {
+            grid-area: 6/3/6/3;
+        }
+
+        .A72 {
+            grid-area: 6/4/6/4;
+        }
+
+        .A73 {
+            grid-area: 6/5/6/5;
+        }
+
+        .A74 {
+            grid-area: 6/6/6/6;
+        }
+
+        .A75 {
+            grid-area: 6/7/6/7;
+        }
+
+        .A76 {
+            grid-area: 6/8/6/8;
+        }
+
+        .A77 {
+            grid-area: 6/9/6/9;
+        }
+
+        .A78 {
+            grid-area: 6/10/6/10;
+        }
+
+        .A79 {
+            grid-area: 6/11/6/11;
+        }
+
+        .A80 {
+            grid-area: 6/12/6/12;
+        }
+
+        .A81 {
+            grid-area: 6/13/6/13;
+        }
+
+        .A82 {
+            grid-area: 6/14/6/14;
+        }
+
+        .A83 {
+            grid-area: 6/15/6/15;
+        }
+
+        .A84 {
+            grid-area: 6/16/6/16;
+        }
+
+        .A85 {
+            grid-area: 6/17/6/17;
+        }
+
+        .A86 {
+            grid-area: 6/18/6/18;
+        }
+
+        .A87 {
+            grid-area: 7/1/7/1;
+        }
+
+        .A88 {
+            grid-area: 7/2/7/2;
+        }
+
+        .A89 {
+            grid-area: 7/3/7/3;
+        }
+
+        .A104 {
+            grid-area: 7/4/7/4;
+        }
+
+        .A105 {
+            grid-area: 7/5/7/5;
+        }
+
+        .A106 {
+            grid-area: 7/6/7/6;
+        }
+
+        .A107 {
+            grid-area: 7/7/7/7;
+        }
+
+        .A108 {
+            grid-area: 7/8/7/8;
+        }
+
+        .A109 {
+            grid-area: 7/9/7/9;
+        }
+
+        .A110 {
+            grid-area: 7/10/7/10;
+        }
+
+        .A111 {
+            grid-area: 7/11/7/11;
+        }
+
+        .A112 {
+            grid-area: 7/12/7/12;
+        }
+
+        .A113 {
+            grid-area: 7/13/7/13;
+        }
+
+        .A114 {
+            grid-area: 7/14/7/14;
+        }
+
+        .A115 {
+            grid-area: 7/15/7/15;
+        }
+
+        .A116 {
+            grid-area: 7/16/7/16;
+        }
+
+        .A117 {
+            grid-area: 7/17/7/17;
+        }
+
+        .A118 {
+            grid-area: 7/18/7/18;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="A1">H</div>
+        <div class="A2">He</div>
+        <div class="A3">Li</div>
+        <div class="A4">Be</div>
+        <div class="A5">B</div>
+        <div class="A6">C</div>
+        <div class="A7">N</div>
+        <div class="A8">O</div>
+        <div class="A9">F</div>
+        <div class="A10">Ne</div>
+        <div class="A11">Na</div>
+        <div class="A12">Mg</div>
+        <div class="A13">Al</div>
+        <div class="A14">Si</div>
+        <div class="A15">P</div>
+        <div class="A16">S</div>
+        <div class="A17">Cl</div>
+        <div class="A18">Ar</div>
+        <div class="A19">K</div>
+        <div class="A20">Ca</div>
+        <div class="A21">Sc</div>
+        <div class="A22 vio">Ti</div>
+        <div class="A23 vio">V</div>
+        <div class="A24 vio">Cr</div>
+        <div class="A25 vio">Mn</div>
+        <div class="A26 vio">Fe</div>
+        <div class="A27 vio">Co</div>
+        <div class="A28 vio">Ni</div>
+        <div class="A29 vio">Cu</div>
+        <div class="A30 vio">Zn</div>
+        <div class="A31">Ga</div>
+        <div class="A32">Ge</div>
+        <div class="A33">As</div>
+        <div class="A34">Se</div>
+        <div class="A35">Br</div>
+        <div class="A36">Kr</div>
+        <div class="A37">Rb</div>
+        <div class="A38">Sr</div>
+        <div class="A39">Y</div>
+        <div class="A40">Zr</div>
+        <div class="A41">Nb</div>
+        <div class="A42">Mo</div>
+        <div class="A43">Tc</div>
+        <div class="A44">Ru</div>
+        <div class="A45">Rh</div>
+        <div class="A46">Pd</div>
+        <div class="A47">Ag</div>
+        <div class="A48">Cd</div>
+        <div class="A49">In</div>
+        <div class="A50">Sn</div>
+        <div class="A51">Sb</div>
+        <div class="A52">Te</div>
+        <div class="A53">I</div>
+        <div class="A54">Xe</div>
+        <div class="A55">Cs</div>
+        <div class="A56">Ba</div>
+        <div class="A57">La</div>
+        <div class="A72">Hf</div>
+        <div class="A73">Ta</div>
+        <div class="A74">W</div>
+        <div class="A75">Re</div>
+        <div class="A76">Os</div>
+        <div class="A77">Ir</div>
+        <div class="A78">Pt</div>
+        <div class="A79">Au</div>
+        <div class="A80">Hg</div>
+        <div class="A81">Tl</div>
+        <div class="A82">Pb</div>
+        <div class="A83">Bi</div>
+        <div class="A84">Po</div>
+        <div class="A85">At</div>
+        <div class="A86">Rn</div>
+        <div class="A87">Fr</div>
+        <div class="A88">Ra</div>
+        <div class="A89">Ac</div>
+        <div class="A104">Rf</div>
+        <div class="A105">Db</div>
+        <div class="A106">Sg</div>
+        <div class="A107">Bh</div>
+        <div class="A108">Hs</div>
+        <div class="A109">Mt</div>
+        <div class="A110">Ds</div>
+        <div class="A111">Rg</div>
+        <div class="A112">Cn</div>
+        <div class="A113">Nh</div>
+        <div class="A114">Fl</div>
+        <div class="A115">Mc</div>
+        <div class="A116">Lv</div>
+        <div class="A117">Ts</div>
+        <div class="A118">Og</div>
+    </section>
+</body>
+
+</html>
