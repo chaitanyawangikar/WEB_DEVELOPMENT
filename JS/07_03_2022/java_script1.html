@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js trial1</title>
+</head>
+
+<body>
+    <h1 id="hed">Chaitanya</h1>
+    <button onclick="scrip()">Submit</button>
+    <button id="ins" onclick="invis()">Make me Invisible</button>
+    <button id="abc" onclick="art()">Click Me</button>
+    <button onclick="document">Catch Me</button>
+</body>
+
+<script>
+    function scrip() {
+        document.getElementById('hed').innerHTML = 'Hello';
+    }
+    function invis() {
+        document.getElementById('ins').style.visibility = 'hidden';
+    }
+    function art() {
+        alert('You Clicked Me HARD HEAD');
+    }
+</script>
+
+</html>
