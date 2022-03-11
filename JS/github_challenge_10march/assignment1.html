@@ -12,6 +12,8 @@
             margin: 0%;
         }
 
+        /*section 1 starts*/
+
         .div1 {
 
             height: 60px;
@@ -70,10 +72,86 @@
             align-items: center;
             justify-content: flex-end;
         }
+
+        /*section 1 end*/
+
+
+
+        /*section 2 starts*/
+        .sec2 {
+            height: 60px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+        }
+
+        .sec2div1>img {
+            height: 15px;
+            width: 10px;
+            margin-left: 20px;
+        }
+
+        .sec2div1>a {
+            color: aqua;
+            text-decoration: none;
+        }
+
+        .sec2div1>.span1 {
+            color: white;
+        }
+
+        .sec2div1>.span2 {
+            color: white;
+            font-size: 12px;
+            padding: 3px 7px;
+            border: 1px solid grey;
+            border-radius: 2em;
+        }
+
+        .section2 {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+        }
+
+        .sec2div1 {
+            flex-grow: 100;
+        }
+
+        .section2>button {
+            background-color: transparent;
+            border-radius: 12px;
+
+        }
+
+        .section2 img {
+            height: 20px;
+            width: 20px;
+        }
+
+        .section2 .span22 {
+            margin: 0px 5px;
+        }
+
+        .but1 {
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 7px;
+        }
+
+        /*section 2 end*/
+
+        .hr1 {
+            border: 0.5px solid grey;
+        }
     </style>
 </head>
 
 <body>
+
+    <!--Section 1 Starts-->
     <div class="md">
         <div class="div1">
             <img src="../github_challenge_10march/img/gitprof.png" alt="GitHub">
@@ -97,6 +175,34 @@
             <a href="#"><img src="../github_challenge_10march/img/github_profile.png" alt="profile"></a>
         </div>
     </div>
+    <!--Section 1 end-->
+
+
+    <!--Section 2 Starts-->
+    <div class="sec2">
+
+        <div class="sec2div1">
+
+            <img src="../github_challenge_10march/img/repo1.png" alt="repo">
+            <a href="#">chaitanyawangikar</a>
+            <span class="span1">/</span>
+            <a href="#">WEB_DEVELOPMENT</a>
+            <span class="span2">Public</span>
+        </div>
+
+        <div class="section2">
+            <button class="but1"><img src="../github_challenge_10march/img/pin mirror.png" alt="pin"><span
+                    class="span22">Pin</span></button>
+            <button class="but1">&#128065; <span class="span22">Unwatch</span>&#9660;</button>
+            <button class="but1">Fork</button>
+            <button class="but1">&#9734;<span class="span22">Star</span>0</button>
+            <button class="but1">&#9660;</button>
+        </div>
+    </div>
+
+    <!--Section 2 end-->
+
+    <hr class="hr1">
 </body>
 
 </html>
