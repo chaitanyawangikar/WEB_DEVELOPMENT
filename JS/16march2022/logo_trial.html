@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        button {
+            border: none;
+            background-color: transparent;
+        }
+
+        button>img {
+            height: 100px;
+            width: 100px;
+        }
+
+        img:hover {
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <button onclick="imc()">
+        <img id="hed" src="../github_challenge_10march/img/chevron-left.png" alt="No image">
+    </button>
+    <script>
+        function imc() {
+            document.getElementById('hed').src = '../github_challenge_10march/img/chevron-right.png';
+        }
+
+    </script>
+</body>
+
+</html>
