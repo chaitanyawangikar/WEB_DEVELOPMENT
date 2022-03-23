@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>assignment 1</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             background-color: black;
             margin: 0%;
@@ -93,7 +97,7 @@
         }
 
         .sec2div1>a {
-            color: aqua;
+            color: blue;
             text-decoration: none;
         }
 
@@ -143,9 +147,381 @@
 
         /*section 2 end*/
 
-        .hr1 {
-            border: 0.5px solid grey;
+
+        /*Section 3 Starts*/
+
+        .section3 {
+            display: flex;
+            justify-content: space-around;
         }
+
+        .section3>.nav2 {
+            color: white;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .section3 .nav2img {
+            height: 15px;
+            width: 10px;
+            margin-right: 6px;
+        }
+
+        .npd {
+            height: 15px;
+            width: 10px;
+            margin-right: 0%;
+        }
+
+        .mrg6 {
+            margin-right: 6px;
+        }
+
+        /*Section 3 end*/
+
+        /*horizontal line starts*/
+        .hr1 {
+            border: 0.5px solid rgb(33, 38, 45);
+        }
+
+        /*horizontal line end*/
+        /*file navigation bar starts*/
+        .part1 {
+            margin-left: 50px;
+        }
+
+        .sec4part1 {
+            display: flex;
+            margin: 20px 0px;
+        }
+
+        .navfile1 {
+            color: white;
+            display: flex;
+            flex-grow: 1;
+        }
+
+        .navfile2 {
+            color: white;
+            display: flex;
+            justify-content: flex-end;
+            flex-grow: 2;
+        }
+
+        .navf {
+            margin-right: 25px;
+        }
+
+        .navfn {
+            margin-left: 25px;
+        }
+
+        .brd {
+            border: 1px solid white;
+            padding: 3px 7px;
+            border-radius: 6px;
+            background-color: rgb(33, 38, 45);
+        }
+
+        .brd1 {
+            border: 1px solid white;
+            padding: 3px 7px;
+            border-radius: 6px;
+            background-color: rgb(35, 134, 54);
+        }
+
+        .navf>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .navfn>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /*file navigation bar ends*/
+        /*Section 4 starts*/
+        table {
+            border: 1px solid white;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+
+        table th {
+            color: white;
+            padding: 8px 20px 10px;
+        }
+
+        table td {
+            color: white;
+            padding: 8px 20px 10px;
+        }
+
+        table a {
+            text-decoration: none;
+            color: white;
+        }
+
+        table tr {
+            border-bottom: 1px solid white;
+        }
+
+        table tr:hover {
+            background-color: rgb(33, 38, 45);
+        }
+
+        table td>a:hover {
+            color: rgb(88, 166, 255);
+        }
+
+        .fold>img {
+            height: 15px;
+            width: 15px;
+            margin-right: 5px;
+        }
+
+        /*Section 4 end*/
+        /**/
+        .section4 {
+            display: flex;
+            border: 1px solid red;
+        }
+
+        /**/
+
+        /*section 4 part 2 start*/
+        .part2 {
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .h21 {
+            color: white;
+        }
+
+        .abt {
+            color: white;
+            margin: 0%;
+        }
+
+        .link1 {
+            margin-top: 20px;
+        }
+
+        .link1>img {
+            height: 12px;
+            width: 12px;
+            margin-right: 5px;
+        }
+
+        .link1>a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        .link1>a:hover {
+            text-decoration: underline;
+        }
+
+        /*Languages known start*/
+        .lan1 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .lan2 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .lan3 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .lan4 {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .lang>a {
+            color: rgb(88, 166, 255);
+            background-color: rgba(56, 139, 253, 0.15);
+            border-radius: 24px;
+            border: 1px solid rgb(88, 166, 255);
+            padding: 0px 10px;
+            margin-right: 5px;
+            text-decoration: none;
+        }
+
+        .lang>a:hover {
+            color: white;
+            background-color: rgb(88, 166, 255);
+        }
+
+        /*Languages known end*/
+
+        /*reading section start*/
+        .readsec {
+            margin-top: 20px;
+        }
+
+        .readsec>div {
+            margin-top: 10px;
+        }
+
+        .read>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .read>a:hover {
+            color: rgb(88, 166, 255);
+        }
+
+        /*reading section end*/
+        .rele>a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .rele>a:hover {
+            color: rgb(88, 166, 255);
+        }
+
+        .rel>a {
+            margin-left: 20px;
+            border: 1px solid greenyellow;
+            border-radius: 10px;
+            padding: 0px 10px;
+            color: greenyellow;
+            text-decoration: none;
+        }
+
+        .relem {
+            display: flex;
+        }
+
+        .relen {
+            color: white;
+        }
+
+        .contri>a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .contri>a:hover {
+            color: rgb(88, 166, 255);
+        }
+
+        .hr2 {
+            margin: 30px 0px;
+        }
+
+        .contri>img {
+            margin: 10px 5px;
+            height: 32px;
+            width: 32px;
+            border-radius: 50%;
+        }
+
+        .contri1>a {
+            color: rgb(88, 166, 255);
+        }
+
+        .contri>a:hover {
+            text-decoration: underline;
+        }
+
+        h3 {
+            color: white;
+            margin: 0px;
+        }
+
+        /*barchart start*/
+        .bct {
+            display: flex;
+            margin-right: 100px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .barchart1 {
+            width: 56%;
+            background-color: rgb(227, 76, 38);
+        }
+
+        .barchart2 {
+            width: 27%;
+            background-color: rgb(86, 61, 124);
+        }
+
+        .barchart3 {
+            width: 17%;
+            background-color: rgb(241, 224, 90);
+        }
+
+        .barr {
+            height: 5px;
+        }
+
+        .perce1>li {
+            margin-right: 16px;
+            color: white;
+            list-style: none;
+        }
+
+        .perce2>a {
+            text-decoration: none;
+            color: rgb(139, 148, 158);
+            margin-left: 4px;
+        }
+
+        .perce2>a:hover {
+            color: rgb(88, 166, 255);
+        }
+
+        li {
+            list-style-type: disc;
+            color: red;
+
+        }
+
+        ul .parce7::before {
+            content: "\2022";
+            color: rgb(227, 76, 38);
+            font-weight: bold;
+        }
+
+        ul .parce8::before {
+            content: "\2022";
+            color: rgb(86, 61, 124);
+            font-weight: bold;
+        }
+
+        ul .parce9::before {
+            content: "\2022";
+            color: rgb(241, 224, 90);
+            font-weight: bold;
+        }
+
+        .perce11 {
+            display: inline-block;
+            margin-left: 10px;
+            margin-top: 2px;
+            margin-bottom: 0px;
+        }
+
+        /*barchart start*/
+
+        /*section 4 part 2 end*/
     </style>
 </head>
 
@@ -202,7 +578,324 @@
 
     <!--Section 2 end-->
 
+
+    <!--Section 3 Starts-->
+    <div class="section3">
+        <div class="nav2">
+            <img class="npd" src="../github_challenge_10march/img/chevron-left.png" alt="left"><img class="npd mrg6"
+                src="../github_challenge_10march/img/chevron-right.png" alt="right"> Code
+        </div>
+        <div class="nav2">Issues</div>
+        <div class="nav2"><img class="nav2img" src="../github_challenge_10march/img/git-pull-request.png"
+                alt="Pull Request">Pull
+            R
+            equest</div>
+        <div class="nav2"><img class="nav2img" src="../github_challenge_10march/img/comment.png"
+                alt="Discussions">Discussions</div>
+        <div class="nav2"><img class="nav2img"
+                src="../github_challenge_10march/img/Play Icon Button Png, White Play Button.png" alt="Actions">Actions
+        </div>
+        <div class="nav2"><img class="nav2img" src="../github_challenge_10march/img/security1.png"
+                alt="Security">Security</div>
+        <div class="nav2"><img class="nav2img" src="../github_challenge_10march/img/graps1.png" alt="Insights">Insights
+        </div>
+    </div>
+    <!--Section 3 end-->
+
+    <!--horizontal line stars-->
     <hr class="hr1">
+    <!--horizontal line end-->
+
+    <!--Section 4 starts-->
+    <div class="section4">
+        <div class="part1">
+            <div class="sec4part1">
+                <div class="navfile1">
+                    <div class="navf brd"><a href="#">Master</a></div>
+                    <div class="navf"><a href="#">branches</a></div>
+                    <div class="navf"><a href="#">branches</a></div>
+                </div>
+                <div class="navfile2">
+                    <div class="navfn brd"><a href="#">Go to file</a></div>
+                    <div class="navfn brd"><a href="#">Add file</a></div>
+                    <div class="navfn brd"><a href="#">Code</a></div>
+                    <div class="navfn brd1"><a href="#">Use this template</a></div>
+                </div>
+            </div>
+            <div class="sec4part2">
+                <table>
+                    <tr>
+                        <th colspan="3">anushbhatia Merge pull request #1283 from soujo/contact-validation
+                            …
+                            1
+                            5ca74ee
+                            5 days ago
+                            Git stats
+                            1,320 commits</th>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file-directory.png" alt="folder"><a
+                                href="#">.github/workflows</a></td>
+                        <td class="">
+                            <a href="#">Delete labels.json</a>
+                        </td>
+                        <td class="">7 months ago
+                        </td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file-directory.png" alt="folder"><a
+                                href="#">assets</a></td>
+                        <td class=""><a href="#">get-in-touch validation improved</a></td>
+                        <td class="">6 days ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file-directory.png" alt="folder"><a
+                                href="#">readme_assets</a></td>
+                        <td class=""><a href="#">Update README to add OSD to Open Source Projects list</a></td>
+                        <td class="">8 months ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">.gitattributes</a></td>
+                        <td class=""><a href="#">Added .gitattributes</a></td>
+                        <td class="">2 years ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">.gitignore</a></td>
+                        <td class=""><a href="#">Updated gitignore with VSCODE exclusion Bug</a></td>
+                        <td class="">8 months ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">404.html</a></td>
+                        <td class=""><a href="#">
+                                replace my googleAnalytics ID with the provided ID</a></td>
+                        <td class="">4 months ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">CODE_OF_CONDUCT.md</a></td>
+                        <td class=""><a href="#">
+                                Revert "Created GitHub pages branch"</a></td>
+                        <td class="">2 years ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">CONTRIBUTING.md</a></td>
+                        <td class=""><a href="#">
+                                Update CONTRIBUTING.md</a></td>
+                        <td class="">5 months ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">LICENSE</a></td>
+                        <td class=""><a href="#">Updated LICENSE</a></td>
+                        <td class="">2 years ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">README.md</a></td>
+                        <td class=""><a href="#">Update README.md</a></td>
+                        <td class="">
+                            3 months ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">design.html</a></td>
+                        <td class=""><a href="#">Removed Commented Code and Reduced Possible LOC</a></td>
+                        <td class="">last month</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">>education.html
+                            </a></td>
+                        <td class=""><a href="#">Change the whole media-query code of education's CSS and HTML file, t…
+                            </a></td>
+                        <td class=""> 12 days ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">event.html
+
+                            </a></td>
+                        <td class=""><a href="#">Set default theme as "dark"
+                            </a></td>
+                        <td class="">2 months ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">experience.html</a></td>
+                        <td class=""><a href="#">Carousel issue resolved</a></td>
+                        <td class="">6 days ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">index.html
+                            </a></td>
+                        <td class=""><a href="#"> Set default theme as "dark"</a></td>
+                        <td class=""> 2 months ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">index.html
+                            </a></td>
+                        <td class=""><a href="#"> Set default theme as "dark"</a></td>
+                        <td class=""> 2 months ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">projects.html</a></td>
+                        <td class=""><a href="#">Set default theme as "dark"</a></td>
+                        <td class="">2 months ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">reference.html</a></td>
+                        <td class=""><a href="#">Updated reference.html</a></td>
+                        <td class="">12 days ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">research.html</a></td>
+                        <td class=""><a href="#">Responsiveness of research page</a></td>
+                        <td class="">13 days ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">robots.txt</a></td>
+                        <td class=""><a href="#">Revert "Created GitHub pages branch"</a></td>
+                        <td class="">2 years ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">sem_temp.html</a></td>
+                        <td class=""><a href="#">Sem-Temp Page updated</a></td>
+                        <td class="">6 days ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">techstack.html</a></td>
+                        <td class=""><a href="#">
+                                Added a page for Tech Stack</a></td>
+                        <td class="">19 days ago</td>
+                    </tr>
+                    <tr class="">
+                        <td class="fold"><img src="../github_challenge_10march/img/file2.png" alt=""><a
+                                href="#">travel_temp.html</a></td>
+                        <td class=""><a href="#"> Set default theme as "dark"</a></td>
+                        <td class="">2 months ago</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="part2">
+            <h2 class="h21">About</h2>
+            <p class="abt">A community maintained open source</p>
+            <p class="abt">project aimed at making a personal</p>
+            <p class="abt">portfolio for researchers, developers, and</p>
+            <p class="abt">analysts simple, fast, and less</p>
+            <p class="abt">cumbersome. We make sure you have a</p>
+            <p class="abt">full-fledged website to showcase your</p>
+            <p class="abt">work while you can spend time on your</p>
+            <p class="abt">earning and innovative endeavors.</p>
+            <div class="link1"><img src="../github_challenge_10march/img/link.png" alt="Link"><a
+                    href="#">portfolio.chaitanyawangikar.com/</a></div>
+
+            <!--Languages known start-->
+            <div class="lan1">
+                <div class="lang"><a href="#">javascript</a></div>
+                <div class="lang"><a href="#">css</a></div>
+                <div class="lang"><a href="#">html</a></div>
+                <div class="lang"><a href="#">potrfolio</a></div>
+                <div class="lang"><a href="#">sci</a></div>
+            </div>
+
+            <div class="lan2">
+                <div class="lang"><a href="#">slop</a></div>
+                <div class="lang"><a href="#">nwoc</a></div>
+                <div class="lang"><a href="#">ch-20</a></div>
+                <div class="lang"><a href="#">slop20</a></div>
+                <div class="lang"><a href="#">sci20</a></div>
+            </div>
+
+            <div class="lan3">
+                <div class="lang"><a href="#">hacktoberfest-accpted</a></div>
+                <div class="lang"><a href="#">dwoc</a></div>
+                <div class="lang"><a href="#">dwoc2020</a></div>
+            </div>
+
+            <div class="lan4">
+                <div class="lang"><a href="#">swoc2021</a></div>
+                <div class="lang"><a href="#">gsso21</a></div>
+                <div class="lang"><a href="#">lgmsoc21</a></div>
+                <div class="lang"><a href="#">psoc21</a></div>
+            </div>
+            <!--Languages known end-->
+            <div class="readsec">
+                <div class="read"><a href="#">Readme</a></div>
+                <div class="read"><a href="#">MIT License</a></div>
+                <div class="read"><a href="#">Code of conduct</a></div>
+                <div class="read"><a href="#">1.3k stars</a></div>
+                <div class="read"><a href="#">25 watching</a></div>
+                <div class="read"><a href="#">992 forks</a></div>
+            </div>
+            <hr class="hr1 hr2">
+            <div>
+                <div class="rele"><a href="#">Releases</a></div>
+                <div class="relem">
+                    <div class="rele"><a href="#">Stable Version1.0.0</a>
+                    </div>
+                    <div class="rel"><a href="#">Latest</a></div>
+                </div>
+                <div class="relen">8 days ago</div>
+            </div>
+            <hr class="hr1 hr2">
+
+            <div class="contrisec">
+                <div class="contri"><a href="#">Contributors</a></div>
+                <div class="contri">
+                    <img src="../github_challenge_10march/img/music logo.png" alt="Contributors">
+                    <img src="../github_challenge_10march/img/music logo.png" alt="Contributors">
+                    <img src="../github_challenge_10march/img/music logo.png" alt="Contributors">
+                    <img src="../github_challenge_10march/img/music logo.png" alt="Contributors">
+                    <img src="../github_challenge_10march/img/music logo.png" alt="Contributors">
+                    <img src="../github_challenge_10march/img/music logo.png" alt="Contributors">
+                    <img src="../github_challenge_10march/img/music logo.png" alt="Contributors">
+                    <img src="../github_challenge_10march/img/music logo.png" alt="Contributors">
+                    <img src="../github_challenge_10march/img/music logo.png" alt="Contributors">
+                    <img src="../github_challenge_10march/img/music logo.png" alt="Contributors">
+                    <img src="../github_challenge_10march/img/music logo.png" alt="Contributors">
+                    <img src="../github_challenge_10march/img/music logo.png" alt="Contributors">
+                </div>
+                <div class="contri contri1"><a href="#">+ 138 contributors</a></div>
+            </div>
+            <hr class="hr1 hr2">
+
+            <div>
+                <h3>Languages</h3>
+                <div class="bct">
+                    <div class="barr barchart1"></div>
+                    <div class="barr barchart2"></div>
+                    <div class="barr barchart3"></div>
+                </div>
+                <div class="perce">
+                    <ul class="perce1">
+                        <li class="perce2 parce7">
+                            <p class="perce11">HTML</p><a href="#">56.0%</a>
+                        </li>
+                        <li class="perce2 parce8">
+                            <p class="perce11">CSS</p><a href="#">27.0%</a>
+                        </li>
+                        <li class="perce2 parce9">
+                            <p class="perce11">JavaScript</p><a href="#">17.0%</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Section 4 end-->
 </body>
 
 </html>
