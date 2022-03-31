@@ -1,0 +1,515 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin: 0%;
+}
+
+/*section 1 starts*/
+
+.div1 {
+
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div1>a {
+    text-decoration: none;
+    color: white;
+}
+
+.div1>img {
+    height: 30px;
+    width: 30px;
+}
+
+#search1 {
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+
+
+.div2>a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.div2>a>img {
+    text-decoration: none;
+    color: white;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.md {
+    display: flex;
+    background-color: #242526;
+    ;
+}
+
+.div2 {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/*section 1 end*/
+
+
+
+/*section 2 starts*/
+.sec2 {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.sec2div1>img {
+    height: 15px;
+    width: 10px;
+    margin-left: 20px;
+}
+
+.sec2div1>a {
+    color: blue;
+    text-decoration: none;
+}
+
+.sec2div1>.span1 {
+    color: white;
+}
+
+.sec2div1>.span2 {
+    color: white;
+    font-size: 12px;
+    padding: 3px 7px;
+    border: 1px solid grey;
+    border-radius: 2em;
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.sec2div1 {
+    flex-grow: 100;
+}
+
+.section2>button {
+    background-color: transparent;
+    border-radius: 12px;
+
+}
+
+.section2 img {
+    height: 20px;
+    width: 20px;
+}
+
+.section2 .span22 {
+    margin: 0px 5px;
+}
+
+.but1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 7px;
+}
+
+/*section 2 end*/
+
+
+/*Section 3 Starts*/
+
+.section3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section3>.nav2 {
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.section3 .nav2img {
+    height: 15px;
+    width: 10px;
+    margin-right: 6px;
+}
+
+.npd {
+    height: 15px;
+    width: 10px;
+    margin-right: 0%;
+}
+
+.mrg6 {
+    margin-right: 6px;
+}
+
+/*Section 3 end*/
+
+/*horizontal line starts*/
+.hr1 {
+    border: 0.5px solid rgb(33, 38, 45);
+}
+
+/*horizontal line end*/
+/*file navigation bar starts*/
+.part1 {
+    margin-left: 50px;
+}
+
+.sec4part1 {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.navfile1 {
+    color: white;
+    display: flex;
+    flex-grow: 1;
+}
+
+.navfile2 {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 2;
+}
+
+.navf {
+    margin-right: 25px;
+}
+
+.navfn {
+    margin-left: 25px;
+}
+
+.brd {
+    border: 1px solid white;
+    padding: 3px 7px;
+    border-radius: 6px;
+    background-color: rgb(33, 38, 45);
+}
+
+.brd1 {
+    border: 1px solid white;
+    padding: 3px 7px;
+    border-radius: 6px;
+    background-color: rgb(35, 134, 54);
+}
+
+.navf>a {
+    text-decoration: none;
+    color: white;
+}
+
+.navfn>a {
+    text-decoration: none;
+    color: white;
+}
+
+/*file navigation bar ends*/
+/*Section 4 starts*/
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+table th {
+    color: white;
+    padding: 8px 20px 10px;
+}
+
+table td {
+    color: white;
+    padding: 8px 20px 10px;
+}
+
+table a {
+    text-decoration: none;
+    color: white;
+}
+
+table tr {
+    border-bottom: 1px solid white;
+}
+
+table tr:hover {
+    background-color: rgb(33, 38, 45);
+}
+
+table td>a:hover {
+    color: rgb(88, 166, 255);
+}
+
+.fold>img {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+}
+
+/*Section 4 end*/
+/**/
+.section4 {
+    display: flex;
+    border: 1px solid red;
+}
+
+/**/
+
+/*section 4 part 2 start*/
+.part2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.h21 {
+    color: white;
+}
+
+.abt {
+    color: white;
+    margin: 0%;
+}
+
+.link1 {
+    margin-top: 20px;
+}
+
+.link1>img {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+}
+
+.link1>a {
+    text-decoration: none;
+    color: blue;
+}
+
+.link1>a:hover {
+    text-decoration: underline;
+}
+
+/*Languages known start*/
+.lan1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.lan2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.lan3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.lan4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.lang>a {
+    color: rgb(88, 166, 255);
+    background-color: rgba(56, 139, 253, 0.15);
+    border-radius: 24px;
+    border: 1px solid rgb(88, 166, 255);
+    padding: 0px 10px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.lang>a:hover {
+    color: white;
+    background-color: rgb(88, 166, 255);
+}
+
+/*Languages known end*/
+
+/*reading section start*/
+.readsec {
+    margin-top: 20px;
+}
+
+.readsec>div {
+    margin-top: 10px;
+}
+
+.read>a {
+    text-decoration: none;
+    color: white;
+}
+
+.read>a:hover {
+    color: rgb(88, 166, 255);
+}
+
+/*reading section end*/
+.rele>a {
+    text-decoration: none;
+    color: white;
+}
+
+.rele>a:hover {
+    color: rgb(88, 166, 255);
+}
+
+.rel>a {
+    margin-left: 20px;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    padding: 0px 10px;
+    color: greenyellow;
+    text-decoration: none;
+}
+
+.relem {
+    display: flex;
+}
+
+.relen {
+    color: white;
+}
+
+.contri>a {
+    color: white;
+    text-decoration: none;
+}
+
+.contri>a:hover {
+    color: rgb(88, 166, 255);
+}
+
+.hr2 {
+    margin: 30px 0px;
+}
+
+.contri>img {
+    margin: 10px 5px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.contri1>a {
+    color: rgb(88, 166, 255);
+}
+
+.contri>a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    color: white;
+    margin: 0px;
+}
+
+/*barchart start*/
+.bct {
+    display: flex;
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.barchart1 {
+    width: 56%;
+    background-color: rgb(227, 76, 38);
+}
+
+.barchart2 {
+    width: 27%;
+    background-color: rgb(86, 61, 124);
+}
+
+.barchart3 {
+    width: 17%;
+    background-color: rgb(241, 224, 90);
+}
+
+.barr {
+    height: 5px;
+}
+
+.perce1>li {
+    margin-right: 16px;
+    color: white;
+    list-style: none;
+}
+
+.perce2>a {
+    text-decoration: none;
+    color: rgb(139, 148, 158);
+    margin-left: 4px;
+}
+
+.perce2>a:hover {
+    color: rgb(88, 166, 255);
+}
+
+li {
+    list-style-type: disc;
+    color: red;
+
+}
+
+ul .parce7::before {
+    content: "\2022";
+    color: rgb(227, 76, 38);
+    font-weight: bold;
+}
+
+ul .parce8::before {
+    content: "\2022";
+    color: rgb(86, 61, 124);
+    font-weight: bold;
+}
+
+ul .parce9::before {
+    content: "\2022";
+    color: rgb(241, 224, 90);
+    font-weight: bold;
+}
+
+.perce11 {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+/*barchart start*/
+
+/*section 4 part 2 end*/
