@@ -122,3 +122,10 @@ if (i >= 0 && i <= 11) {
 } */
 
 
+// How to take multiple dummy values directly for testing
+
+
+const arr = [10, 20, 30, 40, 50];
+let arr2 = arr.reduce((accumulator, element) => (accumulator + element));
+console.log(arr2);
+
