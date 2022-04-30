@@ -72,3 +72,4 @@ for (let element in arr) {
 /* const arr = [2, 3, 4, 5, 6, 7];
 const arr2 = arr.map((x) => 2 * x).filter((element) => element > 10);
 console.log(arr2); */
+
