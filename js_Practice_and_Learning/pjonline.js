@@ -73,3 +73,13 @@ for (let element in arr) {
 const arr2 = arr.map((x) => 2 * x).filter((element) => element > 10);
 console.log(arr2); */
 
+// 01 may 2022
+
+/* 
+How does memory allocation works in .js files
+
+1) Execution context
+2) Global execution context(default)
+
+
+*/
