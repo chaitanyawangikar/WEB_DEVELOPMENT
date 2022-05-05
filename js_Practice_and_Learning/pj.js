@@ -125,7 +125,27 @@ if (i >= 0 && i <= 11) {
 // How to take multiple dummy values directly for testing
 
 
-const arr = [10, 20, 30, 40, 50];
+/* const arr = [10, 20, 30, 40, 50];
 let arr2 = arr.reduce((accumulator, element) => (accumulator + element));
-console.log(arr2);
+console.log(arr2); */
 
+/* function a() {
+    b();
+    console.log(in function a();)
+}
+function b() {
+    console.log(in function b());
+    c();
+}
+function c() {
+    console.log(in function c());
+}
+a(); */
+
+// function hoisting
+
+/* var name = function (a, b) {
+    var c = a + b;
+    console.log(c);
+}
+name(10, 20); */
