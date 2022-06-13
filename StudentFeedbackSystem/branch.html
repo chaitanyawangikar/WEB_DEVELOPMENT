@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Branch</title>
+</head>
+
+<style>
+    table,
+    td,
+    th {
+        border-collapse: collapse;
+
+    }
+
+    table {
+
+        text-align: center;
+        font-size: 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    th {
+        background-color: lightgreen;
+    }
+
+    tr:hover td {
+        background-color: lightslategray;
+    }
+
+    td {
+
+        color: blue;
+    }
+
+    .send {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    button {
+        width: 150px;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 0px;
+        border-radius: 5px;
+        background-color: lightcoral;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    button:hover {
+        background-color: lightsalmon;
+    }
+
+    tr:nth-child(even) {
+        background-color: lightgray;
+    }
+</style>
+
+<body>
+    <h1>Branch</h1>
+
+    <div class="send">
+        <button type="submit" href="#" onclick="push_branch()">Add New Branch</button>
+    </div>
+
+    <script src="branch.js"></script>
+</body>
+
+</html>
